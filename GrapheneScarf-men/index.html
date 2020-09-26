@@ -1,0 +1,884 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=480" />
+    <title>GrapheneScarf</title>
+    <link rel="stylesheet" href="css/style.min.css" />
+    <link rel="stylesheet" href="fonts/proximanova.css" />
+    <link rel="shortcut icon" href="img/icon.png" type="image/png" />
+    <style>
+      .form-btn {
+        animation: pulse 1s infinite;
+      }
+      .form-btn:hover {
+        animation: none;
+      }
+
+      @-webkit-keyframes pulse {
+        0% {
+          -webkit-box-shadow: 0 0 0 0 rgba(255, 36, 95, 0.7);
+        }
+        70% {
+          -webkit-box-shadow: 0 0 0 10px rgba(255, 36, 95, 0);
+        }
+        100% {
+          -webkit-box-shadow: 0 0 0 0 rgba(255, 36, 95, 0);
+        }
+      }
+      @keyframes pulse {
+        0% {
+          -moz-box-shadow: 0 0 0 0 rgba(255, 36, 95, 0.7);
+          box-shadow: 0 0 0 0 rgba(255, 36, 95, 0.7);
+        }
+        70% {
+          -moz-box-shadow: 0 0 0 10px rgba(255, 36, 95, 0);
+          box-shadow: 0 0 0 10px rgba(255, 36, 95, 0);
+        }
+        100% {
+          -moz-box-shadow: 0 0 0 0 rgba(255, 36, 95, 0);
+          box-shadow: 0 0 0 0 rgba(255, 36, 95, 0);
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <section class="s1">
+        <img class="s1-icon" src="img/icon-head-1.png" alt="" />
+        <div class="s1-title">
+          <h1>
+            <span class="s1-title-top">graphene</span
+            ><span class="s1-title-bottom"> Heating </span>
+          </h1>
+
+          <p class="s1-subtitle">
+            шарф<img src="img/icon-head.png" alt="" />
+            <br />
+            <span>с подогревом</span>
+          </p>
+        </div>
+
+        <div class="discount">
+          <p class="discount-text">
+            <span>скидка 65%</span><br /><br />на первый <br />заказ
+          </p>
+        </div>
+
+        <div class="container">
+          <div class="s1-textblock">
+            <p class="s1-textblock-text">Комфорт и тепло всегда с вами!</p>
+          </div>
+
+          <img class="s1-power" src="img/s1-2.png" alt="" />
+
+          <div class="s1-list">
+            <div class="s1-list-item">
+              <img src="img/s1-list-1.png" alt="" />
+              <p>Для мужчин и для женщин</p>
+            </div>
+            <div class="s1-list-item">
+              <img src="img/s1-list-2.png" alt="" />
+              <p>Впишется в любой гардероб</p>
+            </div>
+            <div class="s1-list-item">
+              <img src="img/s1-list-3.png" alt="" />
+              <p>Регулируемая температура</p>
+            </div>
+          </div>
+        </div>
+       
+        <div class="form-wrapper">
+          <div class="timer">
+            <div class="timer-title">Предложение действует:</div>
+            <div class="countbox"></div>
+            <div class="timer-body">
+              <div class="timer-item">
+                <div class="timer-val">
+                  <div class="timer-num">0</div>
+                  <div class="timer-num">0</div>
+                </div>
+                <div class="timer-name">часов</div>
+              </div>
+              <div class="timer-separate"></div>
+              <div class="timer-item">
+                <div class="timer-val">
+                  <div class="timer-num">0</div>
+                  <div class="timer-num">0</div>
+                </div>
+                <div class="timer-name">минут</div>
+              </div>
+              <div class="timer-separate"></div>
+              <div class="timer-item">
+                <div class="timer-val">
+                  <div class="timer-num">0</div>
+                  <div class="timer-num">0</div>
+                </div>
+                <div class="timer-name">секунд</div>
+              </div>
+            </div>
+          </div>
+          <div class="container">
+            <div class="price">
+              <div class="price-old">
+                <div>Обычная цена:</div>
+                <div class="price-old-val oldproductsum">2490р.</div>
+              </div>
+              <div class="price-new">
+                <div>1290р.</div>
+                <span class="price-new-val productsum"></span>
+              </div>
+            </div>
+           
+          </div>
+        </div>
+      <div class="container">
+        <form method="post" class="">
+          <div class="reolader form-item">
+           <button
+                type="submit"
+                class="form-btn mm_button"
+                id="scroll-top"
+              >
+                Заказать сейчас
+              </button>
+          </div>
+          <div class="form-count">
+            Осталось <span class="timer-num-2">1</span><span class="timer-num-2">3</span> шарфов по акции
+        
+          </div>
+        </form>
+      </div>
+      </section>
+
+      <section class="s2">
+      <div class="container">
+        
+        <h2>
+          Вам знакомы эти
+          <br />
+          <span class="color-orange">проблемы?</span>
+        </h2>
+      </div>
+        <div class="s2-list">
+          <div class="s2-list-item">
+            <img src="img/s2-1.png" alt="" />
+            <p>В холодную погоду легко простудиться и заболеть</p>
+          </div>
+          <div class="s2-list-item">
+            <img src="img/s2-2.png" alt="" />
+            <p>Шарф колется, вызывает раздражение на коже и дискомфорт</p>
+          </div>
+          <div class="s2-list-item">
+            <img src="img/s2-3.png" alt="" />
+
+            <p>Погода резко портится и приходится мёрзнуть</p>
+          </div>
+          <div class="s2-list-item">
+            <img src="img/s2-4.png" alt="" />
+            <p>Ваш обычный тканевый шарф пропускает ветер</p>
+          </div>
+        </div>
+      </section>
+      <section class="s3">
+        <h2>
+          <p><span class="bg-gray">вы больше не </span> <br /></p>
+          <p><span class="bg-gray">вспомните об этих</span></p>
+
+          <p><span class="bg-orange">проблемах!</span></p>
+        </h2>
+        <img src="img/s3-bg.png" alt="" />
+      </section>
+      <section class="s4">
+        <h2>
+          новый технологичный шарф<br />
+          <span class="color-orange">Xiaomi Graphene Heating</span>
+        </h2>
+        <img src="img/s4-bg.png" alt="" />
+       
+          <div class="s4-block">
+            <p class="s4-block-text">
+              Компания
+              <b
+                >Xiaomi выпустила по-настоящему уникальный и технологичный
+                шарф,</b
+              >
+              который нагревается сам до выбранной вами температуры и сохраняет
+              тепло, согревая вас даже в самую ветреную и морозную погоду.
+            </p>
+
+            <p class="s4-block-text-2">
+              Шарф <b>Xiaomi Graphene Heating </b>сшит из высококачественного
+              нежного бамбукового материала со встроенной системой подогрева на
+              основе графена.
+            </p>
+            <img src="img/s4.png" alt="">
+          </div>
+       
+      </section>
+      <section class="s5">
+        <h2>
+          Когда пригодится
+          <span class="color-orange">шарф с подогревом от Xiaomi?</span>
+        </h2>
+
+        <div class="s5-list">
+          <div class="s5-list-item">
+            <div class="s5-item-img"><img src="img/s5-1.png" alt="" /></div>
+          </div>
+
+          <div class="s5-list-item">
+            <p>
+              На прогулках в ветренную погоду осенью или холодную метель зимой
+            </p>
+          </div>
+          <div class="s5-list-item">
+            <p>
+              Когда едете на работу холодным зимним утром и возвращаетесь
+              вечером домой
+            </p>
+          </div>
+          <div class="s5-list-item">
+            <div class="s5-item-img"><img src="img/s5-2.png" alt="" /></div>
+          </div>
+          <div class="s5-list-item">
+            <div class="s5-item-img"><img src="img/s5-3.png" alt="" /></div>
+          </div>
+          <div class="s5-list-item">
+            <p>
+              В поездках в холодную погоду на дачу или в путешествие в другой
+              город
+            </p>
+          </div>
+          <div class="s5-list-item">
+            <p>
+              Дома или в офисе вместо грелки, когда холодно или отключили
+              отопление
+            </p>
+          </div>
+          <div class="s5-list-item">
+            <div class="s5-item-img"><img src="img/s5-4.png" alt="" /></div>
+          </div>
+        </div>
+        <div class="container">
+          <form method="post" class="">
+            <div class="reolader form-item">
+              <button
+                type="submit"
+                class="form-btn mm_button"
+                id="scroll-middle"
+              >
+                Заказать сейчас
+              </button>
+            </div>
+          </form>
+        </div>
+        <img src="img/s5-bg.png" alt="" />
+      </section>
+
+      <section class="s6">
+        <h2>
+          Особенности Xiaomi <br /><span class="color-orange"
+            >Graphene Heating</span
+          >
+        </h2>
+        <div class="container">
+          <div class="s6-list">
+            <div class="s6-list-item">
+              <img src="img/s6-1.png" alt="" />
+
+              <div class="s6-item-text">
+                <h3>Безопасное нагревание</h3>
+                <p>
+                  Шарф оснащен нагревательными пластинами из графена, которые
+                  обеспечивают мгновенный нагрев и равномерное тепло. Мембраны
+                  встроены в ткань.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="s6-list">
+            <div class="s6-list-item">
+              <img src="img/s6-2.png" alt="" />
+
+              <div class="s6-item-text">
+                <h3>3 режима нагрева для максимального комфорта</h3>
+                <p>
+                  Вы сами выбираете температуру, с который шарф будет вас согревать:  38-42°С - для офиса или дома, 43-48°С - для прохладной погоды и долгой прогулки в парке, 58°C - для самой холодной зимы и суровой стужи!
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="s6-list">
+            <div class="s6-list-item">
+              <img src="img/s6-3.png" alt="" />
+
+              <div class="s6-item-text">
+                <h3>Красота и современные материалы</h3>
+                <p>
+                  Шарф выполнен из бамбуковой ткани, которая признана одним из лучших натуральных материалов.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="s6-list">
+            <div class="s6-list-item">
+              <img src="img/s6-4.png" alt="" />
+
+              <div class="s6-item-text">
+                <h3>Не вызывает зуда и раздражения</h3>
+                <p>
+                  Шарф отлично держит тепло, позволяет коже дышать, легко впитывает и испаряет влагу человеческого тела, как и лучшие спортивные материалы.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="s6-list">
+            <div class="s6-list-item">
+              <img src="img/s6-5.png" alt="" />
+
+              <div class="s6-item-text">
+                <h3>Уход и долговечность</h3>
+                <p>
+                  Шарф Xiaomi Graphene Heating можно стирать. Сочные насыщенные цвета сохраняют свежесть даже после 100 стирок! Ткань при этом не изнашивается.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="s6-list">
+            <div class="s6-list-item">
+              <img src="img/s6-6.png" alt="" />
+
+              <div class="s6-item-text">
+                <h3>Унисекс</h3>
+                <p>
+                  Шарф подходит как мужчинам, так и женщинам и отлично сочетается с любым гардеробом.
+                </p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </section>
+      <section class="s7">
+        <h2>
+          Выберите свой
+          <br />
+          <span class="color-orange"> цвет</span>
+        </h2>
+
+        <div class="s7-list">
+          <img src="img/s7-bg-1.jpg" alt="" />
+          <div class="s7-list-item">
+          
+            <p class="s7-list-text">
+              Яркий красный подчеркнет ваш стиль, уникальность и добавит красок
+            </p>
+          </div>
+          <div class="s7-list-item">
+           
+            <p class="s7-list-text">
+              Сдержанный серый, когда необходимо сохранять строгость,
+              серьезность и показать свою индивидуальность
+            </p>
+          </div>
+          <img src="img/s7-bg.jpg" alt="" />
+        </div>
+      </section>
+      <section class="s8">
+        <h2>Посмотрите <span class="color-orange">видео!</span></h2>
+        <iframe
+          width="480"
+          height="270"
+          src="https://www.youtube.com/embed/JAvG2b3tKgQ?start=50"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+      </section>
+
+      <section class="s9">
+        <div class="container">
+          <h2>
+            технические<br />
+            <span class="color-orange">характеристики</span>
+          </h2>
+          <img class="s9-img" src="img/s9-bg.png" alt="" />
+          <div class="s9-list">
+            <table cellpadding="5">
+              <tr>
+                <td><b>Разъем зарядки/подключения:</b></td>
+                <td>micro USB</td>
+              </tr>
+              <tr>
+                <td><b>Параметры входа:</b></td>
+                <td>5V/2A</td>
+              </tr>
+              <tr>
+                <td><b>Производитель:</b></td>
+                <td>Xiaomi</td>
+              </tr>
+              <tr>
+                <td><b>Вес:</b></td>
+                <td>390 г</td>
+              </tr>
+              <tr>
+                <td><b>Модель:</b></td>
+                <td>R10</td>
+              </tr>
+              <tr>
+                <td><b>Тип:</b></td>
+                <td>шарф с подогревом</td>
+              </tr>
+              <tr>
+                <td><b>Цвет:</b></td>
+                <td>красный, серый</td>
+              </tr>
+              <tr>
+                <td><b>Длина и Ширина:</b></td>
+                <td>200 х 60 см</td>
+              </tr>
+              <tr>
+                <td><b>Особенности:</b></td>
+                <td>поддержание, регулировка температуры</td>
+              </tr>
+              
+            </table>
+          </div>
+        </div>
+      </section>
+
+   
+      <section class="s10">
+          <h2>
+            <span
+              >Внимание!</span
+              >
+              Остерегайтесь подделок!
+          </h2>
+         <div class="container">
+          <div class="s10-list">
+            Оригинальный <b>шарф с подогревом Xiaomi</b> можно приобрести только здесь на официальном сайте!
+          </div>
+  
+         </div>
+      </section>
+
+      <section class="s11">
+     
+          <div class="s11-text">
+            <h2>
+             
+              <span>
+                К сожалению, <span class="color-orange">в связи с высоким спросом на шарф</span> с подогревом Xiaomi, вынуждены ввести ограничение:</span
+              >
+              вынуждены ввести ограничение:
+              </h2>
+            <div class="s11-limit">
+              <span>не более 3 шарфов в 1 руки!</span>
+            </div>
+          </div>
+        
+            <div class="form-wrapper">
+              <div class="timer">
+                <div class="timer-title">Предложение действует:</div>
+                <div class="countbox"></div>
+                <div class="timer-body">
+                  <div class="timer-item">
+                    <div class="timer-val">
+                      <div class="timer-num">0</div>
+                      <div class="timer-num">0</div>
+                    </div>
+                    <div class="timer-name">часов</div>
+                  </div>
+                  <div class="timer-separate"></div>
+                  <div class="timer-item">
+                    <div class="timer-val">
+                      <div class="timer-num">0</div>
+                      <div class="timer-num">0</div>
+                    </div>
+                    <div class="timer-name">минут</div>
+                  </div>
+                  <div class="timer-separate"></div>
+                  <div class="timer-item">
+                    <div class="timer-val">
+                      <div class="timer-num">0</div>
+                      <div class="timer-num">0</div>
+                    </div>
+                    <div class="timer-name">секунд</div>
+                  </div>
+                </div>
+              </div>
+              <div class="container">
+                <div class="price">
+                  <div class="price-old">
+                    <div>Обычная цена:</div>
+                    <div class="price-old-val oldproductsum">2490р.</div>
+                  </div>
+                  <div class="price-new">
+                    <div>1290р.</div>
+                    <span class="price-new-val productsum"></span>
+                  </div>
+                </div>
+             
+              </div>
+            </div>
+            <div class="container">
+              <form method="post" class="">
+                <div class="reolader form-item">
+                  <button type="submit" class="form-btn mm_button" id="scroll-footer">
+                    Заказать сейчас
+                  </button>
+                </div>
+                <div class="form-count">
+                  Осталось <span class="timer-num-2">1</span><span class="timer-num-2">3</span> шарфов по акции
+              
+                </div>
+              </form>
+            </div>
+     
+      </section>
+
+<section class="s12">
+ <div class="container"> <h2>Благодаря шарфу с подогревом<span class="color-orange"> <br/>Xiaomi Graphene Heating,</span> <span>вы:</span></h2></div>
+  <div class="s12-list">
+    <div class="s12-list-item">
+      <img src="img/s12-1.png" alt="" />
+      <p>Будете реже болеть от простуд</p>
+    </div>
+    <div class="s12-list-item">
+      <img src="img/s12-2.png" alt="" />
+      <p>Избавитесь от болей в спине и шее из-за продуваний</p>
+    </div>
+    <div class="s12-list-item">
+      <img src="img/s12-3.png" alt="" />
+
+      <p>Комфортно будете чувствовать себя в любую погоду</p>
+    </div>
+    <div class="s12-list-item">
+      <img src="img/s12-4.png" alt="" />
+      <p>Очистите свой гардероб от ненужных шарфов и других зимних аксессуаров</p>
+    </div>
+    <img src="img/s12-bg.jpg" alt="">
+  </div>
+
+</section>
+
+      <section class="reviews">
+        <h2>
+          Отзывы <br/>
+          <span class="color-orange">покупателей</span>
+        </h2>
+        <div class="container">
+          <div class="reviews__slider">
+            <div class="reviews-block white-block">
+              <img class="reviews-img" src="img/s13-1.png" alt="" />
+
+              <span class="block-name">
+                <img src="img/s13-icon.png" alt="" /><b>Сергей</b></span
+              >
+              <p>
+                Заказал себе перед осенью ваш шарф и скажу одно - это очень классно! Теперь ветер не задувает в горло и а я стал намного реже болеть. А гулять в таком шарфе одно удовольствие! Как-будто грелка лежит у тебя на плечах и греет!
+              </p>
+            </div>
+            <div class="reviews-block white-block">
+              <img class="reviews-img" src="img/s13-2.png" alt="" />
+
+              <span class="block-name">
+                <img src="img/s13-icon.png" alt="" /><b>Елена</b></span
+              >
+              <p>
+                Купила пальто на осень, а шарф забыла. Подруга рассказала про этот шарф Xiaomi с подогревом, мне идея показалась интересной и я решила заказать. Скажу честно - не ожидала такого эффекта! Шарф ощущается так, будто положила на шею маленький обогреватель)) К тому же, совершенно не пропускает ветер, но при этом отлично дышит и шея не чешется) 
+                Спасибо большое, хочу теперь заказать еще один для ребенка)
+              </p>
+            </div>
+            <div class="reviews-block white-block">
+              <img class="reviews-img" src="img/s13-3.png" alt="" />
+
+              <span class="block-name">
+                <img src="img/s13-icon.png" alt="" /><b>Илья</b></span
+              >
+              <p>
+                Всегда раздражало, что мой обычный вязанный шарф пропускал ветер, особенно зимой, поэтому я заказал шарф согревающий Xiaomi и теперь забыл, что такое холод. Еще очень хорошо, что шарф унисекс, поэтому иногда я даю его своей жене и он ей отлично подходит. Спасибо за быструю доставку.
+              </p>
+            </div>
+
+         
+          </div>
+        </div>
+      </section>
+
+      <section class="s14">
+      
+        <h2>
+          Шарф Xiaomi <br/>Graphene Heating <span class="color-orange">очень быстро заряжается!</span>
+        </h2>
+        <div class="s14-list">
+        <div class="s14-list-item">
+          <img src="img/s14-1.png" alt="">
+          <div class="text">
+            Вставьте USB-зарядку в порт на шарфе
+          </div>
+        </div>
+        <div class="s14-list-item">
+          <img src="img/s14-2.png" alt="">
+          <div class="text">
+            Всего за 2 часа шарф полностью заряжен, а заряда хватит на месяц!
+          </div>
+        </div>
+      
+      </div>
+      <img src="img/s14-bg-2.jpg" alt="">
+      </section>
+
+      <section class="pay">
+        <div class="container">
+          <h2>
+            Доставка
+            <br/>
+            <span class="color-orange">и оплата</span>
+          </h2>
+          <div class="pay-list">
+            <div class="pay-list-item">
+              <img src="img/s15-1.png" alt="" />
+              
+              <p>Доставка почтой в течение 3-10 рабочих дней. Стоимость доставки товара от 350р.</p>
+            </div>
+            <div class="pay-list-item">
+              <img src="img/s15-2.png" alt="" />
+              
+              <p>
+                Оплата заказов осуществляется по факту получения товара
+              </p>
+            </div>
+            <div class="pay-list-item">
+              <img src="img/s15-3.png" alt="" />
+             
+              <p>Мы всегда проверяем товар перед отправкой и гарантируем 100% качество</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+     <section class="s1">
+      <img class="s1-icon" src="img/icon-head-1.png" alt="" />
+      <div class="s1-title">
+        <h1>
+          <span class="s1-title-top">graphene</span
+          ><span class="s1-title-bottom"> Heating </span>
+        </h1>
+
+        <p class="s1-subtitle">
+          шарф<img src="img/icon-head.png" alt="" />
+          <br />
+          <span>с подогревом</span>
+        </p>
+      </div>
+
+      <div class="discount">
+        <p class="discount-text">
+          <span>скидка 65%</span><br /><br />на первый <br />заказ
+        </p>
+      </div>
+
+      <div class="container">
+        <div class="s1-textblock">
+          <p class="s1-textblock-text">Комфорт и тепло всегда с вами!</p>
+        </div>
+
+        <img class="s1-power" src="img/s1-2.png" alt="" />
+
+        <div class="s1-list">
+          <div class="s1-list-item">
+            <img src="img/s1-list-1.png" alt="" />
+            <p>Для мужчин и для женщин</p>
+          </div>
+          <div class="s1-list-item">
+            <img src="img/s1-list-2.png" alt="" />
+            <p>Впишется в любой гардероб</p>
+          </div>
+          <div class="s1-list-item">
+            <img src="img/s1-list-3.png" alt="" />
+            <p>Регулируемая температура</p>
+          </div>
+        </div>
+      </div>
+     
+      <div class="form-wrapper">
+        <div class="timer">
+          <div class="timer-title">Предложение действует:</div>
+          <div class="countbox"></div>
+          <div class="timer-body">
+            <div class="timer-item">
+              <div class="timer-val">
+                <div class="timer-num">0</div>
+                <div class="timer-num">0</div>
+              </div>
+              <div class="timer-name">часов</div>
+            </div>
+            <div class="timer-separate"></div>
+            <div class="timer-item">
+              <div class="timer-val">
+                <div class="timer-num">0</div>
+                <div class="timer-num">0</div>
+              </div>
+              <div class="timer-name">минут</div>
+            </div>
+            <div class="timer-separate"></div>
+            <div class="timer-item">
+              <div class="timer-val">
+                <div class="timer-num">0</div>
+                <div class="timer-num">0</div>
+              </div>
+              <div class="timer-name">секунд</div>
+            </div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="price">
+            <div class="price-old">
+              <div>Обычная цена:</div>
+              <div class="price-old-val oldproductsum">2490р.</div>
+            </div>
+            <div class="price-new">
+              <div>1290р.</div>
+              <span class="price-new-val productsum"></span>
+            </div>
+          </div>
+         
+        </div>
+      </div>
+  <form method="post" class="form-middle form-footer form-top">
+      <div class="form-item">
+        <select
+          name="country"
+          class="countryselect form-control location"
+        > <option selecte value="">Выберите вашу страну</option>
+         
+          <option selecte value="RU">Россия</option>
+        </select>
+      </div>
+      <div class="form-item">
+        <input
+          type="text"
+          name="name"
+          class="field form-control userneme"
+          placeholder="Введите ваше имя"
+          value=""
+        />
+      </div>
+      <div class="form-item">
+        <input
+          type="text"
+          name="phone"
+          class="field form-control phone"
+          placeholder="Введите ваш телефон"
+          value=""
+        />
+      </div>
+
+      <input
+        type="hidden"
+        name="productsum"
+        class="productsum"
+        value="1 руб."
+      />
+      <input type="hidden" name="delivery" value="0 руб." />
+      <input
+        type="hidden"
+        name="totalsum"
+        class="productsum"
+        value="1 руб."
+      />
+      <input type="hidden" name="user" value="1" />
+      <input type="hidden" name="address" value="Уточнить у покупателя" />
+    </form>
+    
+    <form method="post" class="">
+      <div class="reolader form-item">
+        <button type="submit" class="form-btn mm_button" id="scroll-top">
+          Заказать сейчас
+        </button>
+      </div>
+      <div class="form-count">
+        Осталось <span class="timer-num-2">1</span><span class="timer-num-2">3</span> шарфов по акции
+    
+      </div>
+    </form> 
+  </div>
+  
+</section> 
+    </main>
+
+    <script
+      src="https://code.jquery.com/jquery-2.2.4.min.js"
+      integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+      crossorigin="anonymous"
+    ></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/main.js"></script>
+
+    <script>
+      $(function () {
+        CountBox();
+        $(".slider-arrows").html("");
+
+        $(".scroll-to").click(function () {
+          var scrollElem = $(this).attr("href");
+          scrollTo(scrollElem);
+          return false;
+        });
+
+        $("#scroll-top").click(function (event) {
+          event.preventDefault();
+          $("html, body").animate(
+            {
+              scrollTop: $(".form-top").offset().top,
+            },
+            4000
+          );
+        });
+
+        $("#scroll-middle").click(function (event) {
+          event.preventDefault();
+          $("html, body").animate(
+            {
+              scrollTop: $(".form-middle").offset().top,
+            },
+            3000
+          );
+        });
+
+        $("#scroll-footer").click(function (event) {
+          event.preventDefault();
+          $("html, body").animate(
+            {
+              scrollTop: $(".form-footer").offset().top,
+            },
+            2000
+          );
+        });
+
+        $(".reviews__slider").slick({
+          dots: true,
+          dotsClass: "header-dots",
+          infinite: true,
+          speed: 300,
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          autoplay: 6000,
+          prevArrow:
+            '<img class="slider-reviews_left" <img src="img/BTN_arrow_back.png" alt="">',
+          nextArrow:
+            '<img class="slider-reviews_right" src="img/BTN_arrow_next.png" alt="">',
+        });
+
+      });
+    </script>
+  </body>
+</html>
